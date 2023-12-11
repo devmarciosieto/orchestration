@@ -2,16 +2,15 @@ package br.com.mmmsieto.orchestrationservice.application.core.domain.enums;
 
 public enum SaleEvent {
 
-    CREATE_SALE,
-    CREATED_SALE,
     CANCEL_SALE,
     FINALIZE_SALE,
     PREPARE_INVENTORY,
-    INVENTORY_PREPARED,
-    INVENTORY_ERROR,
     EXECUTE_ROLLBACK,
     EXECUTE_PAYMENT,
+    CREATED_SALE,
+    INVENTORY_PREPARED,
+    INVENTORY_ERROR,
     PAYMENT_EXECUTED,
-    PAYMENT_FAILED
+    PAYMENT_FAILED;
 
 }

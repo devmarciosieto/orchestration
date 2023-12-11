@@ -15,7 +15,6 @@ import java.util.Map;
 import static org.apache.kafka.clients.consumer.ConsumerConfig.GROUP_ID_CONFIG;
 import static org.apache.kafka.clients.producer.ProducerConfig.*;
 
-
 @Configuration
 public class KafkaProducerConfig {
 
